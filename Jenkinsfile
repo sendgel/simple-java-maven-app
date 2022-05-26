@@ -5,6 +5,7 @@ pipeline {
       steps {
         echo 'hello world'
       }
+    }
      stage('Test') {
        steps {
          sh 'mvn test'
